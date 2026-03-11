@@ -1,6 +1,15 @@
 # SmartDose: Sistema Automatizado de Dispensación de Medicamentos Programados
 
 ## Introducción
+### Contexto del problema
+A medida que la población colombiana tiende al envejecimiento, y el aumento sostenido de enfermedades crónicas, tales como diabetes o hipertensión, ha generado un escenario en el que millones de personas dependen de instrucciones farmacológicas complejas y específicas para conservar su calidad de vida. Sin embargo, gestionar mentalmente qué se debe tomar y a qué hora, representa una carga cognitiva considerable, principalmente entre los adultos mayores que no tienen un cuidador constante. Dicho esto, el olvido de tomar los medicamentos no es un evento irrelevante, puede desencadenar crisis de salud, empeoramiento del cuadro clínico que deriva en hospitalizaciones de emergencia o el deterioro acelerado de las condiciones a tratar, todas consecuencias que, con la administración correcta de los fármacos, se pueden controlar.
+
+### Importancia y porqué vale la pena resolverlo
+La mala adherencia terapéutica no resulta en consecuencias únicamente para el paciente: representa una sobrecarga al ya presionado sistema de salud pública y a las familias que deben asumir el esfuerzo económico y de tiempo para acompañar a su ser querido y garantizar su bienestar. Si se logra automatizar la dispensación de medicamentos, se elimina el eslabón más débil de la cadena, la memoria humana y la capacidad de seguir indicaciones; más allá del beneficio directo que obtiene el paciente al seguir con su tratamiento como está estipulado, esta solución también les devuelve libertad a los pacientes y reduce la carga del entorno familiar. Resolver este problema con un sistema embebido de bajo costo convierte la solución en una replicable, accesible y sobre todo útil para la sociedad.
+
+### Área de aplicación 
+SmartDose se encuentra justo en la frontera donde, los sistemas embebidos, la ingeniería aplicada a la salud y automatización y control se encuentran. No es un dispositivo médico en el sentido legal o regulatorio, es una solución de ingeniería orientada a un problema humano concreto, dándole visibilidad a las dificultades que día a día pueden enfrentar los enfermos crónicos para su tratamiento. Este proyecto aspira a demostrar como la electrónica, sensores de bajo costo y microcontroladores tienen la capacidad de construir herramientas que impacten realmente a la sociedad.
+
 
 ## Descripción del Problema
 
