@@ -29,6 +29,6 @@ David Aristizábal
 ### Hardware Integration Engineer:
 Gabriel García 
 
-## Verification & Testing Engineer:
+### Verification & Testing Engineer:
 Santiago Soto
 
