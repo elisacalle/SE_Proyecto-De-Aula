@@ -23,7 +23,7 @@ Un caso aplicado puede ser el de la abuela de uno de nuestros integrantes, que d
 
 
 ## Alcance del Proyecto
-¿Qué incluye el proyecto?
+### ¿Qué incluye el proyecto?
 -Programación de hasta 4 horarios de dispensación diarios configurables desde la GUI (Graphical User Interface)
 -Dispensación automática de n dosis (pastilla) por evento programado
 -Detección de si la pastilla fue dispensada correctamente mediante sensor de presencia.
@@ -34,16 +34,16 @@ Un caso aplicado puede ser el de la abuela de uno de nuestros integrantes, que d
 -RTS DS3231 para manejo del tiempo, se comunica por vía I2C
 -Firmware estructurado, con manejo de errores y documentación.
 
-Prototipo esperado
+### Prototipo esperado
 -Tarjeta universal ensamblada dentro de una carcasa impresa en 3D o construida en acrílico/madera MDF
-- Fuente de alimentación externa.
+-Fuente de alimentación externa.
 
-Limites técnicos
--Microcontrolador ESP 32
+### Límites técnicos
+-Microcontrolador ESP32
 -Protocolos usados: I2C (RTC DS3231), UART (logging) y SPI (interfaz).
 -El sistema no distingue el tipo de medicamento.
 -Capacidad de dosis a dispensar (por determinar (depende del diseño físico))
-- No es un dispositivo medico certificado.
+-No es un dispositivo medico certificado.
 -No incluye conectividad WI-FI o bluetooth.
 -No controla temperatura de almacenamiento
 
