@@ -16,13 +16,12 @@ Un caso aplicado puede ser el de la abuela de uno de nuestros integrantes, que d
 ## Alcance del Proyecto
 ¿Qué incluye el proyecto?
 -Programación de hasta 4 horarios de dispensación diarios configurables desde la GUI (Graphical User Interface)
--Dispensación automática de una dosis(pastilla) por evento programado
+-Dispensación automática de n dosis (pastilla) por evento programado
 -Detección de si la pastilla fue dispensada correctamente mediante sensor de presencia.
 -Alerta sonora y visual (buzzer + led) si el usuario no recoge la pastilla después de un tiempo
 -Alerta si el compartimento de medicamentos está vacío.
 -Sistema de logging con timestamp, niveles INFO/WARN/ERROR y códigos estructurados. Se utiliza comunicación UART
--Interfaz gráfica ILI9341([LCD-3.2-TOUCH-ILI9341] Pantalla táctil LCD de 3.2’’. ILI9341)
-(preguntar si es la adecuada para este proyecto), el protocolo que usa es el SPI
+-Interfaz gráfica ILI9341([LCD-3.2-TOUCH-ILI9341] Pantalla táctil LCD de 3.2’’. ILI9341), el protocolo que usa es el SPI
 -RTS DS3231 para manejo del tiempo, se comunica por vía I2C
 -Firmware estructurado, con manejo de errores y documentación.
 
@@ -38,7 +37,21 @@ Limites técnicos
 
 ## Objetivo General
 
+Desarrollar un sistema embebido de bajo costo para la dispensación automática de medicamentos en horarios programados, con configuración mediante interfaz gráfica, generación de alertas al usuario, detección de condiciones de fallo y registro trazable de eventos con marca temporal.
+
 ## Objetivos Específicos
+
+### 1
+Implementar la programación de hasta cuatro horarios diarios configurables desde la interfaz gráfica del sistema.
+
+### 2
+Automatizar la dispensación física de la dosis programada en cada evento de medicación.
+
+### 3
+Incorporar mecanismos de alerta sonora y visual, incluyendo notificación por no recolección y compartimiento vacío.
+
+### 4
+Registrar los eventos relevantes del sistema mediante un esquema de logging estructurado con marca temporal y niveles de severidad.
 
 ## Asignación de Roles
 ### Technical Lead:
