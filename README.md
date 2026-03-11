@@ -34,6 +34,11 @@ Limites técnicos
 -Microcontrolador ESP 32
 -Protocolos usados: I2C (RTC DS3231), UART (logging) y SPI (interfaz).
 -El sistema no distingue el tipo de medicamento.
+-Capacidad de dosis a dispensar (por determinar (depende del diseño físico))
+- No es un dispositivo medico certificado.
+-No incluye conectividad WI-FI o bluetooth.
+-No controla temperatura de almacenamiento
+
 
 
 ## Objetivo General
